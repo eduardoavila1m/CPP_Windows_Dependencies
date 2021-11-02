@@ -2,6 +2,8 @@
 
 ## Installing MINGW
 
+### Run the mingw-w64-install.exe
+
 Run the mingw-w64-install.exe file in your computer an installation wizard will pop up in the screen.
 
 	Assure the thread option is selected as posix.
@@ -34,6 +36,22 @@ The Environment Variables have been updated. To assure MinGW has been installed 
 	mingw --version
 
 If a message displaying the MinGW software version is shown, the software has been installed correctly.
+
+## Installing OpenCV for Windows
+
+### Running OpenCV Executable
+
+Go to the OpenCv main wesite, under library and releases. Download the version form OpenCV required. We download version OpenCV – 3.4.16. This will doenload an executable file. Run the executable file and select the directory where you want the opencv library. Click in the button "Extract".
+
+Once the installer has finished either move the library to the final destination desired. We recommend the main disk directory "C:\". Otherwise you have finished with this step.
+
+### Adding OpenCV environmnetal Variables
+
+Add the following path to the environmental variables under system and path:
+
+	C:\opencv\build\x64\mingw\bin
+	C:\opencv\build\x64\mingw\lib
+
 
 ## References
 
